@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/cloudflared-0.0.1/cloudflared-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-05T21:57:27.118705805Z"
+  fritzbox-exporter:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-09-05T22:39:03.113577424Z"
+    description: A Helm chart for fritzbox-exporter
+    digest: 92f7e80b59940237d2632df047c466c6ab97ad6221c141f1ca9549ddc023cdd1
+    name: fritzbox-exporter
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/fritzbox-exporter-0.0.1/fritzbox-exporter-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-09-05T22:39:03.113583424Z"

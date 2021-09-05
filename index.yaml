@@ -3,6 +3,16 @@ entries:
   cloudflared:
   - apiVersion: v2
     appVersion: 2021.8.7
+    created: "2021-09-05T23:14:45.924408779Z"
+    description: A Helm chart for cloudflared DNS over HTTPS tunnel.
+    digest: 46253e910014d70362556341759e02d1db770fb8f5b727a005062866d31e376b
+    name: cloudflared
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/cloudflared-0.0.4/cloudflared-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: 2021.8.7
     created: "2021-09-05T22:49:20.289734821Z"
     description: A Helm chart for cloudflared DNS over HTTPS tunnel.
     digest: c4141e3405928f470c4a0cc499fef183d9b2eb41f50ba7e64ce6f782febda3a4
@@ -42,4 +52,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/fritzbox-exporter-0.0.1/fritzbox-exporter-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-05T22:49:20.289770721Z"
+generated: "2021-09-05T23:14:45.924423879Z"

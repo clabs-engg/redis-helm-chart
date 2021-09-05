@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cloudflared:
+  - apiVersion: v2
+    appVersion: 2021.8.7
+    created: "2021-09-05T21:57:27.118700205Z"
+    description: A Helm chart for cloudflared DNS over HTTPS tunnel.
+    digest: 5e869d1e0302495e92e4c2dc3f5a35b7d69e03f8e7dcef80f0462da7bdd0ca4e
+    name: cloudflared
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/cloudflared-0.0.1/cloudflared-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-09-05T21:57:27.118705805Z"

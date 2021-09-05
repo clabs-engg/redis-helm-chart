@@ -34,6 +34,16 @@ entries:
   fritzbox-exporter:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2021-09-05T23:54:35.200869784Z"
+    description: A Helm chart for fritzbox-exporter
+    digest: 6d5cadc83201fca8df2b211805f2f5c8e326dbe04e547ab61caa2fc064116a08
+    name: fritzbox-exporter
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/fritzbox-exporter-0.0.5/fritzbox-exporter-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2021-09-05T23:38:57.986726151Z"
     description: A Helm chart for fritzbox-exporter
     digest: 7f725eecbafa5536a9eb8e1ca002260509eb6c86426a206ab9a2a05405ecb343
@@ -72,4 +82,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/fritzbox-exporter-0.0.1/fritzbox-exporter-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-05T23:38:57.986759353Z"
+generated: "2021-09-05T23:54:35.200908685Z"

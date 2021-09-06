@@ -82,4 +82,15 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/fritzbox-exporter-0.0.1/fritzbox-exporter-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-05T23:54:35.200908685Z"
+  traefik-errors:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2021-09-06T01:02:52.897063255Z"
+    description: A Helm chart for custom traefik error pages
+    digest: 3a50e2e68849e19c987cc472ad87af579bb246daf5dce6ae9aa6d5ff4da9901a
+    name: traefik-errors
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-0.0.1/traefik-errors-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-09-06T01:02:52.897362155Z"

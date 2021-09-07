@@ -3,6 +3,16 @@ entries:
   cloudflared:
   - apiVersion: v2
     appVersion: 2021.8.7
+    created: "2021-09-07T06:56:52.075331117Z"
+    description: A Helm chart for cloudflared DNS over HTTPS tunnel.
+    digest: de68feecc7ce6570936701dc2fc4a7fbe0591c29ba785784022c90120f102269
+    name: cloudflared
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/cloudflared-0.0.5/cloudflared-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: 2021.8.7
     created: "2021-09-05T23:14:45.924408779Z"
     description: A Helm chart for cloudflared DNS over HTTPS tunnel.
     digest: 46253e910014d70362556341759e02d1db770fb8f5b727a005062866d31e376b
@@ -32,6 +42,16 @@ entries:
     - https://github.com/pascaliske/helm-charts/releases/download/cloudflared-0.0.1/cloudflared-0.0.1.tgz
     version: 0.0.1
   fritzbox-exporter:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-09-07T06:56:52.178031333Z"
+    description: A Helm chart for fritzbox-exporter
+    digest: e72553ab019b7f210af0fe28bbcd3104e169a673e8c774607d3c8303e7d667b2
+    name: fritzbox-exporter
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/fritzbox-exporter-0.0.6/fritzbox-exporter-0.0.6.tgz
+    version: 0.0.6
   - apiVersion: v2
     appVersion: "1.0"
     created: "2021-09-05T23:54:35.200869784Z"
@@ -85,6 +105,16 @@ entries:
   traefik-errors:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2021-09-07T06:56:52.276465473Z"
+    description: A Helm chart for custom traefik error pages
+    digest: 7c680250339751b02aba3ae64d0aec76f1fbfafa1407b62d954896c8e2aa56f3
+    name: traefik-errors
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-0.0.2/traefik-errors-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2021-09-06T01:02:52.897063255Z"
     description: A Helm chart for custom traefik error pages
     digest: 3a50e2e68849e19c987cc472ad87af579bb246daf5dce6ae9aa6d5ff4da9901a
@@ -93,4 +123,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-0.0.1/traefik-errors-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-06T01:02:52.897362155Z"
+generated: "2021-09-07T06:56:52.276498874Z"

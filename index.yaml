@@ -3,6 +3,16 @@ entries:
   cloudflared:
   - apiVersion: v2
     appVersion: 2021.8.7
+    created: "2021-09-07T13:40:21.395428246Z"
+    description: A Helm chart for cloudflared DNS over HTTPS tunnel.
+    digest: e4e19d86100845c4b08408b90e4d6299381b21df47a13538c7d4b1e4d36bfc70
+    name: cloudflared
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/cloudflared-0.0.6/cloudflared-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: 2021.8.7
     created: "2021-09-07T06:56:52.075331117Z"
     description: A Helm chart for cloudflared DNS over HTTPS tunnel.
     digest: de68feecc7ce6570936701dc2fc4a7fbe0591c29ba785784022c90120f102269
@@ -123,4 +133,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-0.0.1/traefik-errors-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-07T06:56:52.276498874Z"
+generated: "2021-09-07T13:40:21.395460047Z"

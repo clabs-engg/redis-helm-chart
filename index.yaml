@@ -64,6 +64,16 @@ entries:
   fritzbox-exporter:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2021-09-08T08:20:27.466074973Z"
+    description: A Helm chart for fritzbox-exporter
+    digest: 429b7b10435910bcb1c6d113e16acf3ea17a1c4c1363605fbd3259e401230c7e
+    name: fritzbox-exporter
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/fritzbox-exporter-0.0.7/fritzbox-exporter-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2021-09-07T06:56:52.178031333Z"
     description: A Helm chart for fritzbox-exporter
     digest: e72553ab019b7f210af0fe28bbcd3104e169a673e8c774607d3c8303e7d667b2
@@ -143,4 +153,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-0.0.1/traefik-errors-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-07T15:29:50.727743231Z"
+generated: "2021-09-08T08:20:27.466122973Z"

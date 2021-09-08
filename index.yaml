@@ -180,6 +180,28 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: v2.29.2
+    created: "2021-09-08T23:44:46.22097744Z"
+    description: A Helm chart for prometheus
+    digest: 3d9acaddd77a66343b49de9c76bfad6542303f5d597bb42076b5ea300c9999b7
+    home: https://github.com/pascaliske/helm-charts
+    keywords:
+    - prometheus
+    - metrics
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: prometheus
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/prometheus/prometheus
+    - https://prometheus.io
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/prometheus-1.0.2/prometheus-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: v2.29.2
     created: "2021-09-08T23:14:35.884734773Z"
     description: A Helm chart for prometheus
     digest: 149ccecd190919c4d2d7f5bfca99c7e66128a988e812e851739f3b81d4216d28
@@ -264,4 +286,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-0.0.1/traefik-errors-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-08T23:14:35.884768373Z"
+generated: "2021-09-08T23:44:46.221043345Z"

@@ -3,6 +3,28 @@ entries:
   cloudflared:
   - apiVersion: v2
     appVersion: 2021.8.7
+    created: "2021-09-10T06:52:24.478774268Z"
+    description: A Helm chart for cloudflared DNS over HTTPS tunnel.
+    digest: b1b9a8d8421ab5e638dae885c470c006aa3c2e315c1cec78a621efdc787719d6
+    home: https://github.com/pascaliske/helm-charts
+    keywords:
+    - cloudflared
+    - dns-over-https
+    - dns-proxy
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: cloudflared
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/crazy-max/docker-cloudflared
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/cloudflared-1.0.1/cloudflared-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 2021.8.7
     created: "2021-09-08T22:15:16.23444978Z"
     description: A Helm chart for cloudflared DNS over HTTPS tunnel.
     digest: 2f4f18cf3dc2fde453bf82b7fdecedaa0d07d27ce3ea8e644330ef7a19bb259e
@@ -84,6 +106,29 @@ entries:
     - https://github.com/pascaliske/helm-charts/releases/download/cloudflared-0.0.1/cloudflared-0.0.1.tgz
     version: 0.0.1
   fritzbox-exporter:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-09-10T06:52:24.665002371Z"
+    description: A Helm chart for fritzbox-exporter
+    digest: 0354c16d04f8d026b6d5e8e10cc6d4cccfee9f4d1bde395af495e03d1d75439e
+    home: https://github.com/pascaliske/helm-charts
+    keywords:
+    - fritzbox-exporter
+    - fritzbox
+    - prometheus
+    - metrics
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: fritzbox-exporter
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://git.r3ktm8.de/SeaLife-Docker/fritzbox_exporter
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/fritzbox-exporter-1.0.1/fritzbox-exporter-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: "1.0"
     created: "2021-09-08T22:15:16.357306178Z"
@@ -180,6 +225,28 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: v2.29.2
+    created: "2021-09-10T06:52:24.853934073Z"
+    description: A Helm chart for prometheus
+    digest: c34c9a25281650f96b1c1976c5f9a393a7f382d892c29f1f79c4bc289e25a070
+    home: https://github.com/pascaliske/helm-charts
+    keywords:
+    - prometheus
+    - metrics
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: prometheus
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/prometheus/prometheus
+    - https://prometheus.io
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/prometheus-1.1.0/prometheus-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: v2.29.2
     created: "2021-09-08T23:44:46.22097744Z"
     description: A Helm chart for prometheus
     digest: 3d9acaddd77a66343b49de9c76bfad6542303f5d597bb42076b5ea300c9999b7
@@ -247,6 +314,27 @@ entries:
   traefik-errors:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2021-09-10T06:52:25.03205068Z"
+    description: A Helm chart for custom traefik error pages
+    digest: 0596afc5bb9f4920ee429ec9f388242601563e05e7e6eb6409805bcedad2ea4a
+    home: https://github.com/pascaliske/helm-charts
+    keywords:
+    - traefik-errors
+    - traefik
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: traefik-errors
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/pascaliske/docker-traefik-errors
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-1.0.1/traefik-errors-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2021-09-08T22:15:16.591614108Z"
     description: A Helm chart for custom traefik error pages
     digest: 34d446b8dcf619eb0892c8fedb67336d622d65dadfb203d813ffbcb912e588e1
@@ -286,4 +374,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-0.0.1/traefik-errors-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-08T23:44:46.221043345Z"
+generated: "2021-09-10T06:52:25.03217788Z"

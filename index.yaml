@@ -108,6 +108,26 @@ entries:
   digitalocean-dyndns:
   - apiVersion: v2
     appVersion: 7.75.0
+    created: "2021-09-14T14:17:11.404303413Z"
+    description: A Helm chart for a CronJob based DigitalOcean DynDNS client.
+    digest: 7a8164e6e4ca53f3cde2a92faa4f5baac1c0090eaa51001486905b35b72ed44b
+    home: https://github.com/pascaliske/helm-charts
+    keywords:
+    - digitalocean
+    - dyndns
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: digitalocean-dyndns
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/digitalocean-dyndns-0.0.2/digitalocean-dyndns-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 7.75.0
     created: "2021-09-14T14:05:13.477668308Z"
     description: A Helm chart for a CronJob based DigitalOcean DynDNS client.
     digest: 6249a7614e98171e14c7d75f2ef97d80deef287b579b3c21a130687bd612cbf4
@@ -395,4 +415,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-0.0.1/traefik-errors-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-14T14:05:13.477718809Z"
+generated: "2021-09-14T14:17:11.404407816Z"

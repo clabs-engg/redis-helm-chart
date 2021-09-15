@@ -28,13 +28,13 @@ helm delete <chart>
 
 ## Charts
 
-| Chart                                                 | Version | AppVersion |
-| ----------------------------------------------------- | :-----: | :--------: |
-| [`cloudflared`](./charts/cloudflared)                 |  1.0.1  |  2021.8.7  |
-| [`digitalocean-dyndns`](./charts/digitalocean-dyndns) |  0.1.0  |   latest   |
-| [`fritzbox-exporter`](./charts/fritzbox-exporter)     |  1.0.1  |    1.0     |
-| [`prometheus`](./charts/prometheus)                   |  1.1.0  |  v2.29.2   |
-| [`traefik-errors`](./charts/traefik-errors)           |  1.0.1  |   latest   |
+| Chart                                                                                                     | Version | AppVersion |
+| --------------------------------------------------------------------------------------------------------- | :-----: | :--------: |
+| [`cloudflared`](https://github.com/pascaliske/helm-charts/tree/master/charts/cloudflared)                 |  1.0.1  |  2021.8.7  |
+| [`digitalocean-dyndns`](https://github.com/pascaliske/helm-charts/tree/master/charts/digitalocean-dyndns) |  0.1.0  |   latest   |
+| [`fritzbox-exporter`](https://github.com/pascaliske/helm-charts/tree/master/charts/fritzbox-exporter)     |  1.0.1  |    1.0     |
+| [`prometheus`](https://github.com/pascaliske/helm-charts/tree/master/charts/prometheus)                   |  1.1.0  |  v2.29.2   |
+| [`traefik-errors`](https://github.com/pascaliske/helm-charts/tree/master/charts/traefik-errors)           |  1.0.1  |   latest   |
 
 ## License
 

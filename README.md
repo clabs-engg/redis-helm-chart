@@ -1,29 +1,40 @@
 # [`helm`-charts](https://charts.pascaliske.dev)
 
+> Another repository with lightweight Helm Charts.
+
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/pascaliske&style=flat-square)](https://artifacthub.io/packages/search?repo=pascaliske) [![Build Status](https://img.shields.io/github/workflow/status/pascaliske/helm-charts/Release%20Charts/master?label=build&style=flat-square)](https://github.com/pascaliske/helm-charts/actions) ![GitHub Last Release](https://img.shields.io/github/release-date/pascaliske/helm-charts?label=last%20release&style=flat-square) [![GitHub Last Commit](https://img.shields.io/github/last-commit/pascaliske/helm-charts?style=flat-square)](https://github.com/pascaliske/helm-charts) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg?color=blue&style=flat-square)](https://github.com/Naereen/badges)
+
 ## Usage
 
-[Helm](https://helm.sh) must be installed to use the charts. Please refer to Helm's [documentation](https://helm.sh/docs) to get started.
-
-Once Helm has been set up correctly, add the repo as follows:
+[Helm](https://helm.sh) must be installed to use the charts. Please refer to Helm's [documentation](https://helm.sh/docs) to get started. Once Helm has been set up correctly, add the repo as follows:
 
 ```sh
 helm repo add pascaliske https://charts.pascaliske.dev
 ```
 
-If you had already added this repo earlier, run `helm repo update` to retrieve the latest versions of the packages.
-You can then run `helm search repo pascaliske` to see the charts.
+If you had already added this repo earlier, run `helm repo update` to retrieve the latest versions of the packages. Use `helm search repo pascaliske` to see a list of all available charts.
 
-To install a chart:
+You can install a chart release using the following command:
 
 ```sh
-helm install <chart> pascaliske/<chart>
+helm install <release> pascaliske/<chart> --values values.yaml
 ```
 
-To uninstall the chart:
+To uninstall a chart release use `helm`'s delete command:
 
 ```sh
 helm delete <chart>
 ```
+
+## Charts
+
+| Chart                                                 | Version | AppVersion |
+| ----------------------------------------------------- | :-----: | :--------: |
+| [`cloudflared`](./charts/cloudflared)                 |  1.0.1  |  2021.8.7  |
+| [`digitalocean-dyndns`](./charts/digitalocean-dyndns) |  0.1.0  |   latest   |
+| [`fritzbox-exporter`](./charts/fritzbox-exporter)     |  1.0.1  |    1.0     |
+| [`prometheus`](./charts/prometheus)                   |  1.1.0  |  v2.29.2   |
+| [`traefik-errors`](./charts/traefik-errors)           |  1.0.1  |   latest   |
 
 ## License
 

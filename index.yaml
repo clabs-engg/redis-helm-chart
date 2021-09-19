@@ -105,6 +105,30 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/cloudflared-0.0.1/cloudflared-0.0.1.tgz
     version: 0.0.1
+  code-server:
+  - apiVersion: v2
+    appVersion: v3.12.0
+    created: "2021-09-19T19:55:27.520562621Z"
+    description: A Helm chart for Kubernetes
+    digest: 04912bf2144daffc3ecc95e3ec619db97a061d0dae81ac1435ba3515d191c95f
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/code-server
+    keywords:
+    - vscode
+    - code-server
+    - browser-ide
+    - ide
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: code-server
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/cdr/code-server
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/code-server-0.0.2/code-server-0.0.2.tgz
+    version: 0.0.2
   digitalocean-dyndns:
   - apiVersion: v2
     appVersion: 7.75.0
@@ -515,4 +539,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-0.0.1/traefik-errors-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-15T04:57:59.054717732Z"
+generated: "2021-09-19T19:55:27.520631121Z"

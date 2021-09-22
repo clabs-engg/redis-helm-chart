@@ -539,4 +539,27 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-0.0.1/traefik-errors-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-19T19:55:27.520631121Z"
+  uptime-kuma:
+  - apiVersion: v2
+    appVersion: 1.6.0
+    created: "2021-09-22T03:36:45.360019949Z"
+    description: A Helm chart for Kubernetes
+    digest: 9272bdd58b20d192defbb689d61761de33194cbb0688f4f42b57b995034bee18
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/uptime-kuma
+    keywords:
+    - uptime
+    - uptime-kuma
+    - monitoring
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: uptime-kuma
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/louislam/uptime-kuma
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-09-22T03:36:45.36008075Z"

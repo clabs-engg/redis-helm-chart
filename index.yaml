@@ -565,6 +565,28 @@ entries:
   uptime-kuma:
   - apiVersion: v2
     appVersion: 1.6.0
+    created: "2021-09-22T06:17:26.337922561Z"
+    description: A Helm chart for Kubernetes
+    digest: f948c6a17fce750d7af1c0a0d0a5ffb220af307689751a6e5cfc9cb485fc7ad0
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/uptime-kuma
+    keywords:
+    - uptime
+    - uptime-kuma
+    - monitoring
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: uptime-kuma
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/louislam/uptime-kuma
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.3/uptime-kuma-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 1.6.0
     created: "2021-09-22T03:48:46.646131996Z"
     description: A Helm chart for Kubernetes
     digest: 3da8c7939aad59167dfb89bec110f2de5e52892664603f7e5275a43566d4e3fd
@@ -607,4 +629,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-22T03:48:46.646211396Z"
+generated: "2021-09-22T06:17:26.338015761Z"

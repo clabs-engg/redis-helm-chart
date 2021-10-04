@@ -499,6 +499,29 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/prometheus-1.0.0/prometheus-1.0.0.tgz
     version: 1.0.0
+  snapdrop:
+  - apiVersion: v2
+    appVersion: version-78a8b167
+    created: "2021-10-04T11:22:19.809499368Z"
+    description: A Helm chart for snapdrop
+    digest: 2196b5935b6fbbf104eec5386aa848d90307497e421698dd5244a823d0b6c08a
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/snapdrop
+    keywords:
+    - snapdrop
+    - airdrop
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: snapdrop
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/linuxserver/docker-snapdrop
+    - https://github.com/RobinLinus/snapdrop
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/snapdrop-0.0.1/snapdrop-0.0.1.tgz
+    version: 0.0.1
   traefik-errors:
   - apiVersion: v2
     appVersion: 0.0.0
@@ -651,4 +674,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2021-09-22T06:19:23.485956208Z"
+generated: "2021-10-04T11:22:19.809582769Z"

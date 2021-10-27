@@ -662,6 +662,27 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 6.2.6
+    created: "2021-10-27T12:02:06.373551328Z"
+    description: A Helm chart for Redis
+    digest: 6a931016b62dd4d7f903a070a07ab746a9280e80c44c2be84bd7c3d92b1a3924
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/redis
+    keywords:
+    - redis
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: redis
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/docker-library/redis
+    - https://redis.io
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/redis-0.0.2/redis-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 6.2.6
     created: "2021-10-27T11:45:02.862650534Z"
     description: A Helm chart for Redis
     digest: 125cc83e8339f763870b4e83abe81245edc84113ad90f5106e7f4e70482fb4d8
@@ -856,4 +877,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2021-10-27T11:45:02.863426043Z"
+generated: "2021-10-27T12:02:06.373662533Z"

@@ -659,6 +659,28 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/prometheus-1.0.0/prometheus-1.0.0.tgz
     version: 1.0.0
+  redis:
+  - apiVersion: v2
+    appVersion: 6.2.6
+    created: "2021-10-27T11:45:02.862650534Z"
+    description: A Helm chart for Redis
+    digest: 125cc83e8339f763870b4e83abe81245edc84113ad90f5106e7f4e70482fb4d8
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/redis
+    keywords:
+    - redis
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: redis
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/docker-library/redis
+    - https://redis.io
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/redis-0.0.1/redis-0.0.1.tgz
+    version: 0.0.1
   snapdrop:
   - apiVersion: v2
     appVersion: version-78a8b167
@@ -834,4 +856,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2021-10-27T06:21:37.454866831Z"
+generated: "2021-10-27T11:45:02.863426043Z"

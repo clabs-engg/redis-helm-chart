@@ -573,6 +573,28 @@ entries:
   paperless:
   - apiVersion: v2
     appVersion: 1.5.0
+    created: "2021-10-28T10:20:46.949186715Z"
+    description: A Helm chart for paperless-ng
+    digest: b9bed6be6db052cf82b95d69a5ed1a9e00d8c72f6f7231fcb1589a5387e23a22
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/paperless
+    keywords:
+    - paperless
+    - document-management-system
+    - dms
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: paperless
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/jonaswinkler/paperless-ng
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/paperless-0.0.2/paperless-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 1.5.0
     created: "2021-10-28T09:32:10.948512647Z"
     description: A Helm chart for paperless-ng
     digest: da084baef152f39cd5d51c4a2215bc153d28f6d8f32801d52d3e5e632cef7653
@@ -900,4 +922,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2021-10-28T09:32:10.94863795Z"
+generated: "2021-10-28T10:20:46.949284022Z"

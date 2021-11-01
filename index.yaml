@@ -548,6 +548,27 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/fritzbox-exporter-0.0.1/fritzbox-exporter-0.0.1.tgz
     version: 0.0.1
+  gitlab:
+  - apiVersion: v2
+    appVersion: 14.4.1-ce.0
+    created: "2021-11-01T11:58:04.952167674Z"
+    description: A Helm chart for GitLab Omnibus
+    digest: 8d2c66a550530aaa2433abdc6cd38c11bd23701bc45f8e747289275813f8e261
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/gitlab
+    keywords:
+    - gitlab
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: gitlab
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://docs.gitlab.com
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/gitlab-0.0.1/gitlab-0.0.1.tgz
+    version: 0.0.1
   linkding:
   - apiVersion: v2
     appVersion: 1.8.4
@@ -922,4 +943,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2021-10-28T10:20:46.949284022Z"
+generated: "2021-11-01T11:58:04.952300576Z"

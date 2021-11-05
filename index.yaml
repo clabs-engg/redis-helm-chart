@@ -551,6 +551,26 @@ entries:
   gitlab:
   - apiVersion: v2
     appVersion: 14.4.1-ce.0
+    created: "2021-11-05T07:00:00.240222761Z"
+    description: A Helm chart for GitLab Omnibus
+    digest: bdf460ce60a1156c14c5415e1d56289033a68fc22a55f8e6d3c5bbb3b5721d46
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/gitlab
+    keywords:
+    - gitlab
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: gitlab
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://docs.gitlab.com
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/gitlab-0.0.9/gitlab-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v2
+    appVersion: 14.4.1-ce.0
     created: "2021-11-05T06:54:26.780848904Z"
     description: A Helm chart for GitLab Omnibus
     digest: ab1d211293300bff52bb35ff929e741e80feca725ac1240758f1a67ef1ed3d9b
@@ -1083,4 +1103,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2021-11-05T06:54:26.780992204Z"
+generated: "2021-11-05T07:00:00.240358763Z"

@@ -1074,6 +1074,27 @@ entries:
     version: 0.0.1
   traefik-errors:
   - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-11-23T13:01:23.678570336Z"
+    description: A Helm chart for custom traefik error pages
+    digest: 994bdbc3c7384ff8773415fe0145e5dfc127d31cd608680d7006dc6cd12ab618
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/traefik-errors
+    keywords:
+    - traefik-errors
+    - traefik
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: traefik-errors
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/pascaliske/docker-traefik-errors
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/traefik-errors-1.0.2/traefik-errors-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     appVersion: 0.0.0
     created: "2021-09-10T06:52:25.03205068Z"
     description: A Helm chart for custom traefik error pages
@@ -1246,4 +1267,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2021-11-23T13:00:40.200083862Z"
+generated: "2021-11-23T13:01:23.678903036Z"

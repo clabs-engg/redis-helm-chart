@@ -108,6 +108,29 @@ entries:
   code-server:
   - apiVersion: v2
     appVersion: v4.0.2
+    created: "2022-02-01T11:56:18.466440837Z"
+    description: A Helm chart for Kubernetes
+    digest: 30d78e2a6674f63cc996ea9c3fc3093b6c36e2a073b893b0d33b2d4c36ed84a9
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/code-server
+    keywords:
+    - vscode
+    - code-server
+    - browser-ide
+    - ide
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: code-server
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/coder/code-server
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/code-server-0.1.1/code-server-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v4.0.2
     created: "2022-02-01T08:32:11.684321747Z"
     description: A Helm chart for Kubernetes
     digest: 572a1f763c113708271bc11d7b73f674aaf9defd9b748db7eefae544c788140f
@@ -1311,4 +1334,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-01T08:32:11.684922397Z"
+generated: "2022-02-01T11:56:18.466699659Z"

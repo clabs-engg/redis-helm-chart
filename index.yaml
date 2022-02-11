@@ -2,6 +2,28 @@ apiVersion: v1
 entries:
   cloudflared:
   - apiVersion: v2
+    appVersion: 2022.1.0
+    created: "2022-02-11T12:52:35.454662316Z"
+    description: A Helm chart for cloudflared DNS over HTTPS tunnel.
+    digest: 93719045373ad14d561594059a357743e7ef57c58f7c9fbdd04707fcfccd9d63
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/cloudflared
+    keywords:
+    - cloudflared
+    - dns-over-https
+    - dns-proxy
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: cloudflared
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/crazy-max/docker-cloudflared
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/cloudflared-1.1.0/cloudflared-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     appVersion: 2021.8.7
     created: "2021-09-10T06:52:24.478774268Z"
     description: A Helm chart for cloudflared DNS over HTTPS tunnel.
@@ -1334,4 +1356,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-01T11:56:18.466699659Z"
+generated: "2022-02-11T12:52:35.454946419Z"

@@ -987,6 +987,28 @@ entries:
     version: 0.0.1
   prometheus:
   - apiVersion: v2
+    appVersion: v2.33.1
+    created: "2022-02-11T12:54:18.754032869Z"
+    description: A Helm chart for prometheus
+    digest: 6c5433f1c93f5868c5dfb67fa01bd9c391649e1f784f958542e2f3c2e1c09e72
+    home: https://github.com/pascaliske/helm-charts/tree/master/charts/prometheus
+    keywords:
+    - prometheus
+    - metrics
+    maintainers:
+    - email: info@pascaliske.dev
+      name: pascaliske
+      url: https://pascaliske.dev
+    name: prometheus
+    sources:
+    - https://github.com/pascaliske/helm-charts
+    - https://github.com/prometheus/prometheus
+    - https://prometheus.io
+    type: application
+    urls:
+    - https://github.com/pascaliske/helm-charts/releases/download/prometheus-1.2.0/prometheus-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v2
     appVersion: v2.29.2
     created: "2021-09-10T06:52:24.853934073Z"
     description: A Helm chart for prometheus
@@ -1356,4 +1378,4 @@ entries:
     urls:
     - https://github.com/pascaliske/helm-charts/releases/download/uptime-kuma-0.0.1/uptime-kuma-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-11T12:52:35.454946419Z"
+generated: "2022-02-11T12:54:18.754205878Z"

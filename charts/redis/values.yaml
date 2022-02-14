@@ -1,6 +1,6 @@
 image:
   repository: redis
-  tag: 6.2.6
+  tag: 6.2.6-alpine
   pullPolicy: IfNotPresent
 
 nameOverride: ''
@@ -37,6 +37,7 @@ persistentVolumeClaim:
   create: false
   mountPath: /data
   existingPersistentVolumeClaim: ''
+  storageClassName: ''
   annotations: {}
   labels: {}
 
